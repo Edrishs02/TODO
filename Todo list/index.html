@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>🌍 Country Manager</h1>
+
+    <!-- Input to add country -->
+    <div class="todo-input">
+      <input type="text" id="taskInput" placeholder="Enter country name">
+      <button id="addBtn">Add Country</button>
+    </div>
+
+    <!-- Dropdown of countries -->
+    <label for="countrySelect">Select Country:</label>
+    <select id="countrySelect">
+      <option value="">--Select a country--</option>
+    </select>
+
+    <!-- Display only selected country -->
+    <h3>Selected Country:</h3>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
